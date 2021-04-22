@@ -15,7 +15,9 @@
     new Twitch.Embed("twitch-embed", {
       width: 854,
       height: 480,
-      channel: "blinqas"
+      channel: "blinqas",
+      // only needed if your site is also embedded on embed.example.com and othersite.example.com
+      parent: ["blinq.no", "www.blinq.no", "luddigweb.no", "github.com", "github.io"]
     });
   </script>
 </body>
